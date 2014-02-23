@@ -1,0 +1,23 @@
+<Alloy>
+	<NavigationWindow id="navWindow" platform="ios">
+		<Window id="speakerDetailsWindow">
+			<LeftNavButton>
+				<Button id="closeButton" onClick="closeWindow"/>
+			</LeftNavButton>
+			<ScrollView id='detailsContainer'>
+				<ImageView id="speakerImage"/>
+				<Label id="speakerName"/>
+				<View id="socialContainer"/>
+				<Label id="bio"/>
+			</ScrollView>
+		</Window>
+	</NavigationWindow>
+	<Window id="speakerDetailsWindow" platform="android">
+		<ScrollView id='detailsContainer'>
+			<ImageView id="speakerImage"/>
+			<Label id="speakerName"/>
+			<View id="socialContainer"/>
+			<Label id="bio"/>
+		</ScrollView>
+	</Window>
+</Alloy>

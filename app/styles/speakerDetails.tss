@@ -1,0 +1,29 @@
+
+".container" : {
+  
+}
+"#bio" : {
+  top: 140, width: Ti.UI.FILL, color: 'black'
+}
+"#socialContainer" : {
+  height: 32,
+  left: 110, top: 35, layout: 'horizontal'
+}
+"#speakerImage" : {
+  top: 5, left: 5, width: 100, height: 133
+}
+"#speakerName" : {
+  top: 5, left: 110, color: 'black'
+}
+"#speakerDetailsWindow" : {
+  backgroundColor: 'white', title: 'Details', navTintColor: 'black'
+}
+"#closeButton" : {
+  title: 'Close'
+}
+"#detailsContainer" : {
+  width: 300
+}
+"#navWindow" : {
+  
+}

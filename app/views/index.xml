@@ -1,5 +1,6 @@
 <Alloy>
 	<Window class="container">
-		<ImageView id="logo" onClick="doClick"/>
+		<ImageView id="logo"/>
+		<TableView id="table" onClick="tableClick"/>
 	</Window>
 </Alloy>

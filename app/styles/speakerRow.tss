@@ -1,0 +1,18 @@
+
+".container" : {
+  
+}
+"#bio" : {
+  left: 50, top: 25, 
+  bottom: 3, right: 4,
+  color: 'black', font: {fontSize: '11sp'}
+}
+"#speakerImage" : {
+  left: 0, top: 2, width: 46, height: 66
+}
+"#speakerName" : {
+	left: 50, top: 2, color: 'black'
+}
+"#tableRow" : {
+  height: 70
+}
