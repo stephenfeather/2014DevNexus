@@ -6,3 +6,6 @@
 	height: Ti.UI.SIZE,
 	color: "#000"
 } 
+"#logo" : {
+  image: '/images/devnexus-logo.png'
+}

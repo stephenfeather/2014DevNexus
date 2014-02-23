@@ -1,5 +1,5 @@
 function doClick(e) {
-    alert($.label.text);
+    alert('Welcome to DEVNEXUS');
 }
 
 $.index.open();
